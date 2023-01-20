@@ -1,0 +1,9 @@
+ls command that do this:
+
+-Includes all files, including hidden files
+-Sizes are listed in human readable format (e.g. 454M instead of 454279954)
+-Files are ordered by recency
+-Output is colorized
+
+answer: ls
+ls -h -t -s --color=yes -1 -la
